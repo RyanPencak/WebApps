@@ -1,7 +1,15 @@
-#headingfonts {
-  font-family: 'Tangerine', serif;
+.Optima {
+  font-family: 'Optima', sans-serif;
 }
 
-#bodyfonts {
-  font-family: 'Optima', sans-serif;
+.OpenSans {
+  font-family: 'Open+Sans', mono;
+}
+
+.Verdana {
+  font-family: 'Verdana', sans-serif;
+}
+
+.Didot {
+  font-family: 'Didot';
 }
