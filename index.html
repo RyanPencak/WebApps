@@ -1,74 +1,86 @@
 <!doctype html>
 <html>
   <head>
-    <!--<link rel="stylesheet" href="styles.css">-->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Optima|Didot">
     <title> Ryan Pencak's Portfolio </title>
   </head>
 
   <body>
-    <h1> Web Portfolio </h1>
+    <!-- Header Section -->
+    <section class="Header">
+      <h1> Web Portfolio </h1>
 
-    <!-- Nav bar configuration -->
-    <nav>
-      <ul>
-        <li><a href="#aboutMe"> About Me </a></li>
-        <li><a href="#aboutClass"> About the Class </a></li>
-        <li><a href="#portfolioContent"> Portfolio Content </a></li>
-      </ul>
-    </nav>
-
-    <!-- About me section -->
-    <section id="aboutMe">
-      <h2> About Me </h2>
-      <p>
-        Name: Ryan Pencak <br>
-        Email: ryan.pencak@bucknell.edu <br> <br>
-        <!-- Profile image can be found in Media folder -->
-        <img src="./Media/Profile_Picture.jpg" height="200" width="200" alt="Profile Picture">
-        <br> <br>
-        Personal Profiles: <br>
-        <a href="https://www.linkedin.com/in/ryanpencak/"> LinkedIn </a><br>
-        <a href="https://github.com/RyanPencak"> GitHub </a>
-      </p>
+      <div id="nav">
+        <ul>
+          <li><a href="#aboutMe" id="nav_item"> About Me </a></li>
+          <li><a href="#aboutClass" id="nav_item"> About the Class </a></li>
+          <li><a href="#portfolioContent" id="nav_item"> Portfolio Content </a></li>
+          <li><a href="#additionalContent" id="nav_item"> Additional Content </a></li>
+        </ul>
+      </div>
     </section>
 
-    <!-- About the Class section -->
-    <section id="aboutClass">
-      <h2> About the Class </h2>
-      <p> Full Stack Web Applications <br>
-          Course Number: CSCI 379 <br>
-          Professor: Marchiori <br>
-          Institution: Bucknell University <br>
-          Semester: Spring 2018
-      </p>
+    <!-- Main Section: all body content-->
+    <section class="Main">
+      <!-- About me section -->
+      <section class="AboutMe" id="aboutMe">
+        <h2> About Me </h2>
+        <p>
+          Name: Ryan Pencak <br>
+          Email: ryan.pencak@bucknell.edu <br> <br>
+          <!-- Profile image can be found in Media folder -->
+          <img src="./Media/Profile_Picture.png" height="200" width="200" alt="Profile Picture">
+        </p>
+      </section>
+
+      <!-- About the Class section -->
+      <section class="AboutClass" id="aboutClass">
+        <h2> About the Class </h2>
+        <p> Full Stack Web Applications <br>
+            Course Number: CSCI 379 <br>
+            Professor: Marchiori <br>
+            Institution: Bucknell University <br>
+            Semester: Spring 2018
+        </p>
+      </section>
+
+      <!-- Portfolio Content section -->
+      <section class="PortfolioContent" id="portfolioContent">
+        <h2> Portfolio Content </h2>
+
+        <article>
+          <h3> Project 1 </h3>
+          <p>This will contain the content of Project 1</p>
+        </article>
+
+        <article>
+          <h3> Project 2 </h3>
+          <p>This will contain the content of Project 2</p>
+        </article>
+
+        <article>
+          <h3> Final Project </h3>
+          <p>This will contain the content of the Final Project</p>
+        </article>
+      </section>
+
+    <!-- Additional Content Section -->
+    <section class="AdditionalContent" id="additionalContent">
+      <h2> Additional Content </h2>
+
+      <article>
+        <a href="./fontfun.html" id="fontfunlink"> Font Fun </a>
+      </article>
     </section>
 
-    <!-- Portfolio Content section -->
-    <section id="portfolioContent">
-      <h2> Portfolio Content </h2>
+  </section> <!-- end section Main -->
 
-      <article>
-        <h3> Project 1 </h3>
-        <p>This will contain the content of Project 1</p>
-      </article>
-
-      <article>
-        <h3> Project 2 </h3>
-        <p>This will contain the content of Project 2</p>
-      </article>
-
-      <article>
-        <h3> Final Project </h3>
-        <p>This will contain the content of the Final Project</p>
-      </article>
-    </section>
-
-  <section id="additionalCoursework">
-    <h2> Additional Coursework </h2>
-
-    <article>
-      <a href="./fontfun.html"> fontfun </a>
-    </article>
+  <!-- Footer Section -->
+  <section class="Footer">
+    Personal Profiles:
+    <a href="https://www.linkedin.com/in/ryanpencak/" id="profilelink"> LinkedIn </a>
+    <a href="https://github.com/RyanPencak" id="profilelink"> GitHub </a>
   </section>
 
   </body>

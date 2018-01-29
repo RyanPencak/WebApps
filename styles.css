@@ -1,0 +1,108 @@
+/* The color scheme as a whole is intended to be simple, sharp, and professional
+
+   The division between the sections shows the white background and gives it a clean, divided feel
+
+   Header and Footer Background Color Choice: #4e535b
+      This darker color makes a crisp transition to body content
+
+   Body Backround Color Choice: #DDD
+      This lighter gray makes the content of the site simple and sophisticated
+
+   Text Colors: Near black on light background and near white on dark Background
+*/
+
+h1, h2, h3 {
+  font-family: "Didot";
+}
+
+.Main p {
+  font-family: "Optima";
+}
+
+.Header {
+    text-align: center;
+    background-color: #4e535b;
+    color: #cdd2d8;
+    box-shadow: 1px 4px 5px #999;
+    padding: 15px;
+    margin-top: 20px;
+    font-family: "Didot";
+}
+
+.Header #nav_item:link, #nav_item:visited {
+  color: #32405b;
+  background-color: #DDD;
+  border-radius: 25px;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.Header #nav_item:hover {
+  color: #000;
+}
+
+#nav {
+  display: table;
+  margin: 0 auto;
+}
+
+#nav ul li{
+  display: inline;
+  align: right;
+  padding: 15px;
+}
+
+.AboutMe {
+  background-color: #DDD;
+  box-shadow: 1px 4px 5px #999;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.AboutClass {
+  background-color: #DDD;
+  box-shadow: 1px 4px 5px #999;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.PortfolioContent {
+    background-color: #DDD;
+    box-shadow: 1px 4px 5px #999;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.AdditionalContent {
+    background-color: #DDD;
+    box-shadow: 1px 4px 5px #999;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.AdditionalContent #fontfunlink:link, #fontfunlink:visited {
+    color: #0d0e0f;
+}
+
+.AdditionalContent #fontfunlink:hover {
+    color: #000;
+}
+
+.Footer {
+  background-color: #4e535b;
+  color: #cdd2d8;
+  box-shadow: 1px 4px 5px #999;
+  padding: 15px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.Footer a:link, a:visited {
+  color: #cdd2d8;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.Footer a:hover {
+  color: #fff;
+}
