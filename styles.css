@@ -3,7 +3,7 @@
    The division between the sections shows the white background and gives it a clean, divided feel
 
    Header and Footer Background Color Choice: #4e535b
-      This darker color makes a crisp transition to body content
+      This darker color creates a crisp transition to body content
 
    Body Backround Color Choice: #DDD
       This lighter gray makes the content of the site simple and sophisticated
@@ -11,84 +11,144 @@
    Text Colors: Near black on light background and near white on dark Background
 */
 
-h1, h2, h3 {
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header styling */
+.header {
+  background-color: #4e535b;
+  color: #cdd2d8;
+  box-shadow: 1px 4px 5px #999;
+  padding: 15px;
+  margin-top: 20px;
+  font-family: "Didot";
+  text-align: center;
+  flex: auto;
+}
+
+/* Fronts for headers and paragraphs */
+.main h1, h2, h3 {
   font-family: "Didot";
 }
 
-.Main p {
+.main p {
   font-family: "Optima";
 }
 
-.Header {
-    text-align: center;
-    background-color: #4e535b;
-    color: #cdd2d8;
-    box-shadow: 1px 4px 5px #999;
-    padding: 15px;
-    margin-top: 20px;
-    font-family: "Didot";
+/* Title styling */
+.title {
+  width: 100%;
+  text-align: center;
+  background-color: #4e535b;
+  color: #cdd2d8;
+  box-shadow: 1px 4px 5px #999;
+  margin-top: 0px;
+  padding: 10px;
+  margin: 0px 10px 10px 10px;
 }
 
-.Header #nav_item:link, #nav_item:visited {
-  color: #32405b;
+/* Phone media styling default */
+.column {
+  width: 100%;
+  flex: auto;
+}
+
+/* Tablet media styling */
+@media (min-width: 768px) and (max-width: 991px){
+  .container{
+    width:90%;
+  }
+  .column{
+    width:30%;
+  }
+}
+
+/* Desktop media styling */
+@media (min-width: 992px){
+  .container{
+    width:90%;
+  }
+  .column{
+    width:30%;
+  }
+}
+
+/* About me section styling */
+.aboutMe {
   background-color: #DDD;
-  border-radius: 25px;
-  padding: 8px;
+  box-shadow: 1px 4px 5px #999;
+  padding: 15px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aboutMe p {
+  line-height: 30px;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.aboutMe img {
+  float: right;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+/* Additional content section styling */
+.sampleCoursework {
+  background-color: #DDD;
+  box-shadow: 1px 4px 5px #999;
+  padding: 15px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sampleCoursework #fontfun {
+  background-color: #61728e;
+  color: #FFF;
+  box-shadow: 1px 4px 5px #999;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+.sampleCoursework #fontfunlink:link, #fontfunlink:visited {
+  color: #000;
   text-decoration: none;
 }
 
-.Header #nav_item:hover {
-  color: #000;
+.sampleCoursework #fontfunlink:hover {
+  color: #FFF;
+  text-decoration: none;
 }
 
-#nav {
-  display: table;
-  margin: 0 auto;
-}
-
-#nav ul li{
-  display: inline;
-  align: right;
-  padding: 15px;
-}
-
-.AboutMe {
+/* Portfolio content section styling */
+.portfolioContent {
   background-color: #DDD;
   box-shadow: 1px 4px 5px #999;
   padding: 15px;
   margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  float: center;
 }
 
-.AboutClass {
-  background-color: #DDD;
+.portfolioContent #project {
+  background-color: #61728e;
+  color: #FFF;
   box-shadow: 1px 4px 5px #999;
-  padding: 15px;
-  margin-top: 20px;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
 }
 
-.PortfolioContent {
-    background-color: #DDD;
-    box-shadow: 1px 4px 5px #999;
-    padding: 15px;
-    margin-top: 20px;
-}
-
-.AdditionalContent {
-    background-color: #DDD;
-    box-shadow: 1px 4px 5px #999;
-    padding: 15px;
-    margin-top: 20px;
-}
-
-.AdditionalContent #fontfunlink:link, #fontfunlink:visited {
-    color: #0d0e0f;
-}
-
-.AdditionalContent #fontfunlink:hover {
-    color: #000;
-}
-
-.Footer {
+/* Footer section styling */
+.footer {
   background-color: #4e535b;
   color: #cdd2d8;
   box-shadow: 1px 4px 5px #999;
@@ -97,12 +157,70 @@ h1, h2, h3 {
   text-align: center;
 }
 
-.Footer a:link, a:visited {
+.footer a:link, a:visited {
   color: #cdd2d8;
   text-decoration: none;
   padding: 15px;
 }
 
-.Footer a:hover {
+.footer a:hover {
   color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Below exists additional stlying for features I have not included in this version of submission */
+
+
+
+/* .header .nav {
+  text-align: center;
+  display: table;
+  margin: 10px auto;
+}
+
+.header .nav li {
+  display: inline;
+  align: right;
+  padding: 15px;
+} */
+
+/* Navigation syling */
+/* .header #nav_item:link, #nav_item:visited {
+  color: #32405b;
+  background-color: #DDD;
+  border-radius: 25px;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.header #nav_item:hover {
+  color: #000;
+} */
+
+/* Row styling */
+/* .row {
+  background-color: #DDD;
+  box-shadow: 1px 4px 5px #999;
+  padding: 15px;
+  margin-top: 20px;
+  display: flex; */
+  /* flex-wrap: wrap; */
+}
+
+/* .row .title {
+  background-color: #4e535b;
+  color: #cdd2d8;
+  box-shadow: 1px 4px 5px #999;
+  padding: 15px;
+  margin-top: 20px;
+} */
