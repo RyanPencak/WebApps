@@ -127,23 +127,18 @@
   flex-wrap: wrap;
 }
 
-.aboutMe .info {
-  flex-shrink: 0;
-  flex-grow: 1;
-}
-
 .aboutMe p {
   line-height: 30px;
   padding: 10px;
   margin: 10px 10px 10px 10px;
-  flex-shrink: 0;
   flex-grow: 1;
 }
 
-.aboutMe img {
+.profile_picture {
   float: right;
   padding: 10px;
   margin: 10px 10px 10px 10px;
+  max-width: 100%;
 }
 
 /* Additional content section styling */
