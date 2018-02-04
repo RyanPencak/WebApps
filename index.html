@@ -30,7 +30,7 @@
         <!-- About me section -->
         <section class="aboutMe">
           <h2 class="title"> About Me </h2>
-          <p class="column">
+          <p class="info">
             <strong>Name:</strong> Ryan Pencak <br>
             <strong>Email:</strong> ryan.pencak@bucknell.edu <br>
             <strong>Course:</strong> Full Stack Web Applications <br>
@@ -41,7 +41,6 @@
 
           <!-- Profile image can be found in Media folder -->
           <img src="./Media/Profile_Picture.png" height="200" width="200" alt="Profile Picture">
-
         </section>
 
         <!-- Additional Content Section -->
@@ -57,22 +56,23 @@
 
         <!-- Portfolio Content section -->
         <section class="portfolioContent">
-          <h2 class="title"> Portfolio Content </h2>
+          <div id="flex_container">
+            <h2 class="title"> Portfolio Content </h2>
+            <article class="column" id="project">
+              <h3 id="header1"> Project 1 </h3>
+              <p>1a) CSS Layout: Applied CSS position and styling to make this portfolio website fully responsive.</p>
+            </article>
 
-          <article class="column" id="project">
-            <h3> Project 1 </h3>
-            <p>1a) CSS Layout: Applied CSS position and styling to make this portfolio website fully responsive.</p>
-          </article>
+            <article class="column" id="project">
+              <h3 id="header2"> Project 2 </h3>
+              <p>This will contain the content of Project 2</p>
+            </article>
 
-          <article class="column" id="project">
-            <h3> Project 2 </h3>
-            <p>This will contain the content of Project 2</p>
-          </article>
-
-          <article class="column" id="project">
-            <h3> Final Project </h3>
-            <p>This will contain the content of the Final Project</p>
-          </article>
+            <article class="column" id="project">
+              <h3 id="header3"> Final Project </h3>
+              <p>This will contain the content of the Final Project</p>
+            </article>
+          </div>
         </section>
 
       </section> <!-- end section Main -->
