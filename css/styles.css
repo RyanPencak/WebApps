@@ -177,21 +177,7 @@
   box-shadow: 1px 4px 5px #999;
   padding: 15px;
   margin-top: 20px;
-  /* display: flex;
-  flex-wrap: wrap;
-  float: center; */
 }
-
-/* .portfolioContent #project {
-  background-color: #61728e;
-  color: #FFF;
-  box-shadow: 1px 4px 5px #999;
-  padding: 10px;
-  margin: 10px 10px 10px 10px;
-  display: flex;
-  flex-wrap: wrap;
-  position: relative;
-} */
 
 /* Footer section styling */
 .footer {
