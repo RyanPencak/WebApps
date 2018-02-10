@@ -41,13 +41,13 @@
 
 /* Title styling */
 .title {
-  width: 100% !important;
-  text-align: center !important;
-  background-color: #4e535b !important;
-  color: #cdd2d8 !important;
-  box-shadow: 1px 4px 5px #999 !important;
-  padding: 10px !important;
-  margin: 0px 5px 10px 5px !important;
+  width: 100%;
+  text-align: center;
+  background-color: #4e535b;
+  color: #cdd2d8;
+  box-shadow: 1px 4px 5px #999;
+  padding: 10px;
+  margin: 0px 5px 10px 5px;
 }
 
 /* About me section styling */
@@ -84,15 +84,15 @@
 }
 
 .sampleCoursework #assignment {
-  background-color: #61728e !important;
-  color: #FFF !important;
+  background-color: #61728e;
+  color: #FFF;
   /* box-shadow: 1px 4px 5px #999; */
-  padding: 10px !important;
+  padding: 10px;
   /* margin: 10px 10px 10px 10px; */
   /* width: 100%; */
-  border-width: 5px !important;
-  border-style: solid !important;
-  border-color: #DDD !important;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #DDD;
 }
 
 #fontfunlink:link, #fontfunlink:visited {
