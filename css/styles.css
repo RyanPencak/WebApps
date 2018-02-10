@@ -84,15 +84,15 @@
 }
 
 .sampleCoursework #assignment {
-  background-color: #61728e;
-  color: #FFF;
+  background-color: #61728e !important;
+  color: #FFF !important;
   /* box-shadow: 1px 4px 5px #999; */
-  padding: 10px;
+  padding: 10px !important;
   /* margin: 10px 10px 10px 10px; */
   /* width: 100%; */
-  border-width: 5px;
-  border-style: solid;
-  border-color: #DDD;
+  border-width: 5px !important;
+  border-style: solid !important;
+  border-color: #DDD !important;
 }
 
 #fontfunlink:link, #fontfunlink:visited {
