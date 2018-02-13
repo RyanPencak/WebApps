@@ -83,7 +83,31 @@
   margin-top: 20px;
 }
 
-.sampleCoursework #assignment {
+.sampleCoursework #assignment1 {
+  background-color: #61728e;
+  color: #FFF;
+  /* box-shadow: 1px 4px 5px #999; */
+  padding: 10px;
+  /* margin: 10px 10px 10px 10px; */
+  /* width: 100%; */
+  border-width: 5px;
+  border-style: solid;
+  border-color: #DDD;
+}
+
+.sampleCoursework #assignment2 {
+  background-color: #61728e;
+  color: #FFF;
+  /* box-shadow: 1px 4px 5px #999; */
+  padding: 10px;
+  /* margin: 10px 10px 10px 10px; */
+  /* width: 100%; */
+  border-width: 5px;
+  border-style: solid;
+  border-color: #DDD;
+}
+
+.sampleCoursework #assignment3 {
   background-color: #61728e;
   color: #FFF;
   /* box-shadow: 1px 4px 5px #999; */
@@ -144,7 +168,29 @@
 }
 
 /* Project styling */
-#project {
+#project1 {
+  background-color: #61728e;
+  color: #FFF;
+  /* box-shadow: 1px 4px 5px #999; */
+  padding: 10px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #DDD;
+  /* margin: 10px 10px 10px 10px; */
+}
+
+#project2 {
+  background-color: #61728e;
+  color: #FFF;
+  /* box-shadow: 1px 4px 5px #999; */
+  padding: 10px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #DDD;
+  /* margin: 10px 10px 10px 10px; */
+}
+
+#project3 {
   background-color: #61728e;
   color: #FFF;
   /* box-shadow: 1px 4px 5px #999; */

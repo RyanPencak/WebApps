@@ -3,11 +3,12 @@
   <head>
     <title> Ryan Pencak's Web Portfolio </title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Optima|Didot">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Optima">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didot">
     <link rel="shortcut icon" type="image/png" href="./Media/favicon.png"/>
   </head>
 
@@ -18,11 +19,40 @@
         <h1> Web Portfolio </h1>
       </section> <!-- End section header -->
 
+      <!-- <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-item" href="#aboutMeTag">About Me<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item" href="#sampleCourseworkTag">Sample Coursework<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projectsTag">Course Content<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav> -->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> -->
+          <!-- <span class="navbar-toggler-icon"></span> -->
+        <!-- </button> -->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#aboutMeTag">About Me</a>
+            <a class="nav-item nav-link active" href="#sampleCourseworkTag">Sample Coursework</a>
+            <a class="nav-item nav-link active" href="#projectsTag">Course Content</a>
+          </div>
+        </div>
+      </nav>
+
       <!-- Main Section: all body content-->
-      <section class="main">
+      <div class="main">
 
         <!-- About me section -->
-        <section class="aboutMe">
+        <section class="aboutMe" id="aboutMeTag">
           <div class="col">
             <div class="row">
               <h2 class="title"> About Me </h2>
@@ -45,65 +75,65 @@
         </section>
 
         <!-- Additional Content Section -->
-        <section class="sampleCoursework">
+        <section class="sampleCoursework" id="sampleCourseworkTag">
           <div class="col">
             <div class="row">
               <h2 class="title"> Sample Coursework </h2>
             </div>
 
-            <article class="row" id="assignment">
-              <p> <strong>Font Fun:</strong></br>
+            <div class="row" id="assignment1">
+              <p> <strong>Font Fun:</strong><br>
               The <a href="./fontfun/fontfun.html" id="fontfunlink">Font Fun</a> assignment
               links to a web page demonstrating header and paragraph font choices.</p>
-            </article>
+            </div>
 
-            <article class="row" id="assignment">
-              <p> <strong>Responsive CSS:</strong></br>
+            <div class="row" id="assignment2">
+              <p> <strong>Responsive CSS:</strong><br>
               The <a href="./project1a/index.html" id="project1alink">Project 1a</a> assignment
               links to a web page demonstrating responsive CSS design for this page.</p>
-            </article>
+            </div>
 
-            <article class="row" id="assignment">
-              <p> <strong>Bootstrap Examples:</strong></br>
+            <div class="row" id="assignment3">
+              <p> <strong>Bootstrap Examples:</strong><br>
               The <a href="./bootstrap_sample1/bootstrap1.html" id="bootstrap1link">Bootstrap Example 1</a> assignment
-              links to a web page sampling bootstrap.</br>
+              links to a web page sampling bootstrap.<br>
               The <a href="./bootstrap_sample2/bootstrap2.html" id="bootstrap2link">Bootstrap Example 2</a> assignment
               links to another web page sampling bootstrap.</p>
-            </article>
+            </div>
           </div>
         </section>
 
         <!-- Portfolio Content section -->
-        <section class="portfolioContent">
+        <section class="portfolioContent" id="projectsTag">
           <div class="col">
           <div class="row">
             <h2 class="title"> Portfolio Content </h2>
-            <article class="col-sm-12 col-md-6 col-lg-4" id="project">
+            <div class="col-sm-12 col-md-6 col-lg-4" id="project1">
               <h3 id="header1"> Project 1 </h3>
               <p>1a) CSS Layout: Applied CSS position and styling to make this portfolio website fully responsive.</p>
               <p>1b) Bootstrap: Applied Bootstrap to this web page for page formatting and layout.</p>
-            </article>
+            </div>
 
-            <article class="col-sm-12 col-md-6 col-lg-4" id="project">
+            <div class="col-sm-12 col-md-6 col-lg-4" id="project2">
               <h3 id="header2"> Project 2 </h3>
               <p>This will contain the content of Project 2</p>
-            </article>
+            </div>
 
-            <article class="col-sm-12 col-md-12 col-lg-4" id="project">
+            <div class="col-sm-12 col-md-12 col-lg-4" id="project3">
               <h3 id="header3"> Final Project </h3>
               <p>This will contain the content of the Final Project</p>
-            </article>
+            </div>
           </div>
         </div>
         </section>
 
-      </section> <!-- end section Main -->
+      </div> <!-- end section Main -->
 
       <!-- Footer Section -->
-      <section class="footer">
-        <a href="https://www.linkedin.com/in/ryanpencak/" id="profilelink"> LinkedIn </a>
-        <a href="https://github.com/RyanPencak" id="profilelink"> GitHub </a>
-      </section>
+      <div class="footer">
+        <a href="https://www.linkedin.com/in/ryanpencak/" id="linkedinlink"> LinkedIn </a>
+        <a href="https://github.com/RyanPencak" id="githublink"> GitHub </a>
+      </div>
     </div>
   </body>
 </html>
