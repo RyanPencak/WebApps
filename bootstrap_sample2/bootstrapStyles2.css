@@ -1,0 +1,42 @@
+* {
+  background-color: #c5d1e5;
+}
+
+h1 {
+  text-align: center;
+}
+
+.column1 {
+  background-color: grey;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #DDD;
+}
+
+.column2 {
+  background-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #DDD;
+}
+
+.column3 {
+  background-color: grey;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #DDD;
+}
+
+.column4 {
+  background-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #DDD;
+}
+
+.column5 {
+  background-color: grey;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #DDD;
+}
