@@ -1,0 +1,59 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <title> Dog API </title>
+  </head>
+  <body>
+    <h1> DOGS </h1>
+    <!-- <Button onclick="listDogBreeds()">
+      List Dog Breeds
+    </Button> -->
+
+    <div className="container">
+      <div id="randomPicButton">
+        <Button onclick="getRandomDogPic()">
+          Get a Random Dog Picture
+        </Button>
+      </div>
+
+      <!-- <div class="input-group mb-3">
+        <input type="text" id="breed" class="form-control" placeholder="Enter a dog breed" aria-label="breed" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary" type="button" onclick="getDogBreedPic(document.getElementById('breed'))">Get Picture</button>
+        </div>
+      </div> -->
+
+      <div id="breedPicButton">
+        <h3> Enter a Breed </h3>
+        <input type="text" id="configname" name="configname" />
+        <input type="button" value="Get Picture"
+          onclick="getDogBreedPic(document.getElementById('configname').value)" />
+      </div>
+
+      <!-- <select name="breedPicture" onchange="menu(this);">
+        <option value=""> Select Breed </option>
+        <option value="affenpinscher">affenpinscher</option>
+        <option value="african">african</option>
+        <option value="airedale">airedale</option>
+        <option value="akita">akita</option>
+        <option value="appenzeller">appenzeller</option>
+        <option value="basenji">basenji</option>
+        <option value="beagle">beagle</option>
+        <option value="bluetick">bluetick</option>
+      </select> -->
+
+      <div id="dog_container">
+        <!-- <ul id="dogList"></ul> -->
+        <img id="dogPic">
+        <img id="breedPic">
+      </div>
+    </div>
+
+    <script src='./script.js'></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+.container {
+  display: flex;
+}
+
+#randomPicButton {
+  float: center;
+}

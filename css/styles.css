@@ -119,6 +119,18 @@
   border-color: #DDD;
 }
 
+.sampleCoursework #assignment4 {
+  background-color: #61728e;
+  color: #FFF;
+  /* box-shadow: 1px 4px 5px #999; */
+  padding: 10px;
+  /* margin: 10px 10px 10px 10px; */
+  /* width: 100%; */
+  border-width: 5px;
+  border-style: solid;
+  border-color: #DDD;
+}
+
 #fontfunlink:link, #fontfunlink:visited {
   color: #000;
   text-decoration: none;
