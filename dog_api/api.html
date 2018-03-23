@@ -16,42 +16,21 @@
         <div class="col-sm">
           <div class="randomPicButton">
             <h3> See a Random Dog: </h3>
-            <Button onclick="getRandomDogPic()">
+            <Button onclick="getRandomDogPic()" id="button">
               Get Picture
             </Button>
           </div>
         </div>
+
         <div class="col-sm">
           <div class="breedPicSelection">
             <h3> See a Specific Dog: </h3>
-            <select name="breedPicture" onchange="menu(this);">
+            <select name="breedPicture" id="selectBreed" onchange="menu(this);">
               <option value=""> Select Breed </option>
-              <option value="affenpinscher">affenpinscher</option>
-              <option value="african">african</option>
-              <option value="airedale">airedale</option>
-              <option value="akita">akita</option>
-              <option value="appenzeller">appenzeller</option>
-              <option value="basenji">basenji</option>
-              <option value="beagle">beagle</option>
-              <option value="bluetick">bluetick</option>
             </select>
           </div>
         </div>
       </div>
-
-      <!-- <div class="input-group mb-3">
-        <input type="text" id="breed" class="form-control" placeholder="Enter a dog breed" aria-label="breed" aria-describedby="basic-addon2">
-        <div class="input-group-append">
-          <button class="btn btn-outline-secondary" type="button" onclick="getDogBreedPic(document.getElementById('breed'))">Get Picture</button>
-        </div>
-      </div> -->
-
-      <!-- <div id="breedPicButton">
-        <h3> See a specific dog: </h3>
-        <input type="text" id="configname" name="configname" />
-        <input type="button" value="Get Picture"
-          onclick="getDogBreedPic(document.getElementById('configname').value)" />
-      </div> -->
 
       <div class="imageContainer">
         <img id="dogPic" class="center">

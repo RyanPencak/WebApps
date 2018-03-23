@@ -1,17 +1,21 @@
-.container h1 {
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #91b0c1;
+  box-shadow: 1px 4px 5px #999;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Garamond";
   text-align: center;
+}
+
+.container h1 {
   font-size: 50px;
-  font-family: Garamond;
 }
 
 .container h3 {
   font-size: 30px;
-  font-family: Garamond;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
 }
 
 .randomPicButton {
@@ -22,6 +26,18 @@
 .breedPicSelection {
   padding: 50px 50px 50px 50px;
   float: right;
+}
+
+#button {
+  border-radius: 5px;
+  /* width: 150px; */
+  height: 40px;
+}
+
+#selectBreed {
+  border-radius: 40px;
+  width: 120px;
+  height: 40px;
 }
 
 .center {
