@@ -151,6 +151,16 @@
   text-decoration: none;
 }
 
+#project2link:link, #project2link:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+#project2link:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
 #bootstrap1link:link, #bootstrap1link:visited {
   color: #000;
   text-decoration: none;
