@@ -169,11 +169,25 @@
 #project2link:link, #project2link:visited {
   color: #000;
   text-decoration: none;
+  font-size: 20px;
 }
 
 #project2link:hover {
   color: #FFF;
   text-decoration: none;
+  font-size: 20px;
+}
+
+#finalprojectlink:link, #finalprojectlink:visited {
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#finalprojectlink:hover {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 #bootstrap1link:link, #bootstrap1link:visited {
