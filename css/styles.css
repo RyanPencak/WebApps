@@ -147,8 +147,8 @@
 }
 
 #fontfunlink:link, #fontfunlink:visited {
-  color: #000;
-  text-decoration: none;
+  color: #FFF;
+  text-decoration: underline;
 }
 
 #fontfunlink:hover {
@@ -157,8 +157,8 @@
 }
 
 #project1alink:link, #project1alink:visited {
-  color: #000;
-  text-decoration: none;
+  color: #FFF;
+  text-decoration: underline;
 }
 
 #project1alink:hover {
@@ -168,31 +168,31 @@
 
 #project2link:link, #project2link:visited {
   color: #000;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 20px;
 }
 
 #project2link:hover {
   color: #FFF;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 20px;
 }
 
 #finalprojectlink:link, #finalprojectlink:visited {
   color: #000;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 20px;
 }
 
 #finalprojectlink:hover {
   color: #FFF;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 20px;
 }
 
 #bootstrap1link:link, #bootstrap1link:visited {
-  color: #000;
-  text-decoration: none;
+  color: #FFF;
+  text-decoration: underline;
 }
 
 #bootstrap1link:hover {
@@ -201,8 +201,8 @@
 }
 
 #bootstrap2link:link, #bootstrap2link:visited {
-  color: #000;
-  text-decoration: none;
+  color: #FFF;
+  text-decoration: underline;
 }
 
 #bootstrap2link:hover {
